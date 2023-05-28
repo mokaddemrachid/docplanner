@@ -1,0 +1,579 @@
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 1px 1px rgb(230, 230, 230);
+    opacity: 0.98;
+}
+/* navigation bar div */
+#nav-bar{
+    height: 100px;
+    display: flex;
+    width: 100%;
+}
+/* div logo image */
+#logo-img{
+    height: 100px;
+    width: 300px;
+    margin-left: 10%;
+}
+/* resizing the logo image and positioning */
+.logo{
+    width: 268px;
+    height: 33px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+/* menu bar div */
+#menu{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 35%;
+}
+/* displaying the items of the nav departments */
+nav .departments{
+    display: inline-block;
+}
+/* styling the text of the navigation bar links */
+nav a{
+    color: rgb(187, 187, 187);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+/* removing the underline from the links */
+nav a:link{
+    text-decoration: none;
+}
+/* adding color when we hover on the links*/
+nav a:hover{
+    color: #00b39b;
+}
+/* styling the dropdown items of departments */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    right: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+  /* styling the dropdown content of departments */
+.dropdown-content a {
+    color: rgb(187, 187, 187);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  /* adding color when we hover on the links */
+.dropdown-content a:hover {background-color: #f1f1f1;
+                            color: #00b39b;    
+}
+/**/
+.departments:hover .dropdown-content {
+    display: block;
+}
+/************************************* main *****************************************/
+#main-div1{
+    background-color: #fff;
+    height: 1050px;
+    width: 100%;
+}
+/* positioning the small logo in the center */
+.small-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* styling the title h1 */
+.title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00b39b;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-weight: 50;
+    margin-top: 40px;
+}
+/* styling the first div container */
+#container{
+    width: 80%;
+    height: 873px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+/* styling the div which contains the two paragraphes */
+#paragraphes{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    column-count: 2;
+    column-gap: 214px;
+}
+/* style of the paragraphe on the left */
+#paragraphe1{
+    width: 40%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(172, 172, 172);
+}
+/* style of the paragraphe on the right */
+#paragraphe2{
+    width: 40%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(172, 172, 172);
+}
+/* style of the div of three boxs */
+#boxs{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    column-count: 3;
+    column-gap: 22px;
+   
+}
+#box1{
+    height: 370px;
+    width: 32%;
+    background-color: #00ccb1;
+    border-radius: 3%;
+}
+#box2{
+    height: 370px;
+    width: 32%;
+    background-color: #3d83df;
+    border-radius: 3%;
+}
+#box3{
+    height: 370px;
+    width: 32%;
+    background-color: #1b2734;
+    border-radius: 3%;
+}
+/* style of the class of icons */
+.material-symbols-outlined{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+/* style of the title h2 in the boxs */
+.title-h2{
+    margin-left: 30px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 50;
+}
+/* styling the class text box */
+.text-box{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+}
+/* style of the class country lists */
+.select-country select{
+    border: none;
+    background-color: inherit;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    text-decoration: underline;
+}
+.select-country3 select{
+    border: none;
+    background-color: inherit;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    text-decoration: underline;
+}
+.select-country{
+    background-color: inherit;
+    width: 100px;
+    display: contents;
+}
+/* style of the lists options */
+option{
+    background-color: #fff;
+    font-family: default;
+    font-size: small;
+    color: black;
+}
+/* styling the div end-container */
+#end-container{
+    background-color: #ffffff;
+    width: 100%;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    column-count: 2;
+    column-gap: 19px;
+    zoom: 1;
+}
+/* style of the div titre */
+.titre{
+    width: 30%;
+    height: 210px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00b39b;
+}
+/* styling the title h1 */
+.titre h1{
+    font-size: 2rem;
+    letter-spacing: -.3px;
+    font-weight: 300;
+}
+/* making the div link-images a grid */
+.link-images{
+    width: 68%;
+    height: 210px;
+    background-color: #fff;
+    display: grid;
+    grid-row: 3;
+    grid-column: 4;
+    grid-auto-rows: minmax(19px, auto);
+    align-items: center;
+}
+
+.logos-2{
+    width: 111px;
+    height: 19px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+}
+.logos-3{
+    width: 115px;
+    height: 19px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+}
+.logos-4{
+    width: 135px;
+    height: 30px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+.logos-5{
+    width: 135px;
+    height: 30px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}
+.logos-6{
+    width: 135px;
+    height: 30px;
+    grid-row-start: 2;
+    grid-column-start: 1;
+}
+.logos-7{
+    width: 135px;
+    height: 30px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.logos-8{
+    width: 135px;
+    height: 30px;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.logos-9{
+    width: 135px;
+    height: 30px;
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+.logos-10{
+    width: 135px;
+    height: 30px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+/* main-div2 */
+
+#main-div2{
+    width: 100%;
+    height: 650px;
+    background-color: #e5faf8;
+    position: relative;
+}
+#block1{
+    width: 400px;
+    height: 200px;
+    background-color: #e5faf8;
+    position: absolute;
+    left: 130px;
+    top: 50px;
+}
+.block-title{
+    font-size: 2rem;
+    letter-spacing: -.3px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00b39b;
+}
+#block1 p{
+    color: rgb(172, 172, 172);
+}
+#main-div2 #block2{
+    position: absolute;
+    top: 25px;
+    right: 130px;
+}
+#block2{
+    width: 550px;
+    height: 600px;
+    background-color: #e5faf8;
+    position: relative;
+}
+.square1{
+    width: 230px;
+    height: 250px;
+    position: absolute;
+    background-color: #fff;
+    top: 25px;
+    right: 30px;
+    border-radius: 5px;
+}
+.square-logo1{
+    padding-top: 50px;
+    padding-left: 95px;
+}
+.square2{
+    width: 230px;
+    height: 250px;
+    position: absolute;
+    background-color: #fff;
+    top: 50px;
+    left: 30px;
+    border-radius: 5px;
+}
+.square-logo2{
+    padding-top: 25px;
+    padding-left: 95px;
+}
+.square3{
+    width: 230px;
+    height: 250px;
+    position: absolute;
+    background-color: #fff;
+    top: 300px;
+    right: 30px;
+    border-radius: 5px;
+}
+.square-logo3{
+    padding-top: 50px;
+    padding-left: 95px;
+}
+.square4{
+    width: 230px;
+    height: 250px;
+    position: absolute;
+    background-color: #fff;
+    top: 325px;
+    left: 30px;
+    border-radius: 5px;
+}
+.square-logo4{
+    padding-top: 25px;
+    padding-left: 95px;
+}
+#block2 h3{
+    text-align: center;
+    color: #00b39b;
+    font-size: x-large; 
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.square-text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(148, 148, 148);
+    font-size: small;
+}
+#block3{
+    width: 550px;
+    height: 380px;
+    background-color: #e5faf8;
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    overflow: hidden;
+}
+#main-div2 #block3{
+    position: relative;
+}
+.big-logo{
+    width: 560px;
+    height: 520px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+}
+/* main-div3 */
+#main-div3{
+    background-color: #fff;
+    height: 2300px;
+    width: 100%;
+}
+#main-div3 h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00b39b;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-weight: 50;
+    padding-top: 40px;
+}
+#main-div3 .p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(148, 148, 148);
+    font-size: medium;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+#cities{
+    width: 80%;
+    height: 1800px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.city{
+    width: 311px;
+    height: 380px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.city:hover{
+    box-shadow: 10px 10px 8px 8px rgb(230, 230, 230);
+}
+
+.city-image{
+    width: 311px;
+    height: 280px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.city-name{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(109, 109, 109);
+    font-size: large;
+    margin-top: 25px;
+    margin-right: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.city-button{
+    margin-top: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #71a8f0;
+    font-size: x-small;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #fff;
+}
+.city-button:hover{
+    background-color: #0c5bb1;
+}
+/* end-div3 */
+#end-div3{
+    width: 80%;
+    height: 200px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#end-div3 .phrase{
+    color: rgb(59, 59, 59);
+    font-size: xx-large;
+    position: absolute;
+    right: 30%;
+}
+
+.large-btn{
+    border: none;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #71a8f0;
+    color: #fff;
+}
+.large-btn:hover{
+    background-color: #0c5bb1;
+}
+/* footer style */
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+footer p{
+    color: #747474;
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: #0061e0;
+    padding-top: 5px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
